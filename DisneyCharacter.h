@@ -45,9 +45,9 @@ public:
 private:
 	/* -------------- CONSTANTS ------------- */
 	/* -------------- ATTRIBUTES ------------ */
-	char name[kNameString];					// a name string from user or constructor
+	char name[kNameString];					// A name string from user or constructor
 	char nameCopy[kNameString];				// Variables for safe copying of name strings
-	char creationDate[kDateString];			// a date string from user or constructor
+	char creationDate[kDateString];			// A date string from user or constructor
 	char creationDateCopy[kDateString];		// Variables for safe copying of date strings
 	int numMovies;							// Integer variable to store the number of movie appearances
 	char whichPark;							// A character variable indicating which park the person appeared in.

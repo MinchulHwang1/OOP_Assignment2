@@ -4,10 +4,10 @@
 	Name	:   DisnetCharacter -- CONSTRUCTOR
 	Purpose :   To instantiate a new DisneyCharacter object - given a set of attribute values
 				It can be overloaded
-	Inputs	:	name			String		name of the character
-				creationDate	String		created date of the character
+	Inputs	:	name			char*		name of the character
+				creationDate	char*		created date of the character
 				numMovies		int			how many movies the character stars
-				whichPark		int			M, S, A, E, C, N
+				whichPark		char		M, S, A, E, C, N
 	Outputs	:	NONE
 	Returns	:	Nothing
 */

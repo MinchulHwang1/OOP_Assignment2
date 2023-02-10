@@ -15,7 +15,8 @@ int main(void) {
 	DisneyCharacter myCharacter2((char*)"Minnie", (char*)"1930-01-01");
 	
 
-	myCharacter2.PlaceCharacter('E');
+	myCharacter2.PlaceCharacter('E');				//Test - Harness Particulars
+	myCharacter2.SameMovies(myCharacter);		//Test - Harness Particulars
 
 	myCharacter.ShowInfo();
 	
